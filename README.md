@@ -1,4 +1,4 @@
-# 🛰️ TLE Ageing Error Comparison using MATLAB Satellite Scenario
+#  Impact of Outdated Two Line Element Sets in SGP4 model Satellite Tracking
 
 This project demonstrates how the accuracy of a satellite orbit prediction degrades as the **TLE (Two-Line Element set) becomes older**.
 
@@ -7,7 +7,7 @@ We propagate multiple TLEs of different ages using the **SGP4 propagator** and c
 <img src="https://github.com/Girinath-NU/Impact-of-Outdated-Two-Line-Element-Sets-in-SGP4-model-Satellite-Tracking/blob/main/Earth%20View.png" width="75%" />
 ---
 
-## 📌 Objective
+## Objective
 
 To visualize and quantify **orbital prediction error growth** caused by TLE ageing.
 
@@ -20,7 +20,7 @@ We compare:
 
 ---
 
-## 🧠 Concept
+## Concept
 
 TLEs are generated from tracking observations.
 As time passes:
@@ -36,7 +36,7 @@ This project demonstrates that behavior graphically.
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
 * MATLAB R2021a or later
 * Aerospace Toolbox
@@ -44,7 +44,7 @@ This project demonstrates that behavior graphically.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 project/
@@ -58,7 +58,7 @@ project/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Update file paths inside the script:
 
@@ -77,7 +77,7 @@ tle_error
 
 ---
 
-## ⚙️ What the Code Does
+## What the Code Does
 
 ### 1. Create Satellite Scenario
 
@@ -158,19 +158,3 @@ For LEO satellites:
 
 ---
 
-## 📚 Applications
-
-* Ground station antenna pointing
-* Satellite tracking
-* Collision avoidance
-* Space situational awareness
-* Mission planning
-
----
-
-## 👨‍💻 Author
-
-Girinath N U
-Electronics & Space Systems Enthusiast
-
----
